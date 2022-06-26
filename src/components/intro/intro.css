@@ -1,0 +1,60 @@
+.i-intro {
+  height: 77vh;
+  display: flex;
+  /* background-color: red; */
+  padding: 2rem;
+  flex-direction: column;
+  /* margin-top: rem; */
+}
+.i-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.i-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.i-name-name {
+  font-size: 3rem;
+}
+.i-name-prefix {
+  display: inline-block;
+  margin: 0;
+}
+.typeEffect {
+  margin: 0;
+  display: inline-block;
+}
+.i-name-bio {
+  color: var(--gray);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.i-social {
+  /* background-color: red; */
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.i-social > a {
+  width: 1.5rem;
+}
+.i-social > a > img {
+  /* height: 100%; */
+  width: 100%;
+  object-fit: contain;
+}
+.i-social > a > img:hover {
+  /* height: 100%; */
+  cursor: pointer;
+}
+.i-twitter:hover {
+  background-color: red;
+  overflow: hidden;
+}
